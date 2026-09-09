@@ -1,0 +1,13 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Local servers / logs
+node_modules/
+*.log
+
+# Ignore any stray PDFs / large binary files that shouldn't be committed
+*.pdf
+!

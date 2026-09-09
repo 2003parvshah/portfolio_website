@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parv Shah — Software Engineer & AI/ML Developer</title>
+  <meta name="description" content="Portfolio of Parv Shah — Full-Stack Developer, AI/ML Engineer and Data Analyst. M.Tech @ NIT Jalandhar." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Favicon (inline SVG monogram) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231a1b26'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='%2368f7e6' font-family='sans-serif'%3EPS%3C/text%3E%3C/svg%3E" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="brand">
+      <span class="brand-mark">&lt;/&gt;</span>
+      <span class="brand-name">Parv<span class="brand-dot">.</span>Shah</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><circle cx="12" cy="12" r="6"/><g stroke="currentColor"><line x1="12" y1="3" x2="12" y2="6"/><line x1="18" y1="9" x2="20" y2="7"/><line x1="6" y1="9" x2="4" y2="7"/><line x1="15" y1="6" x2="17" y2="4"/><line x1="9" y1="6" x2="7" y2="4"/></g></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M21 12.7A5 5 0 0 1 12.8 7.7A5 5 0 0 1 21 12.7"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-tag">
+        <span class="pulse-dot"></span> Available for opportunities
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Parv Shah</span>.
+        <span class="type-line">I build <span class="typed-text" id="typedText"></span><span class="caret">|</span></span>
+      </h1>
+      <p class="hero-subtitle">
+        Full-Stack Developer &amp; AI/ML Engineer passionate about building scalable
+        microservices, intelligent LLM-powered systems and data-driven products —
+        from <em>Spring Boot &amp; Laravel</em> backends to <em>RAG pipelines &amp; analytics dashboards</em>.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>700+</strong><span>LeetCode problems</span></div>
+        <div class="stat"><strong>2×</strong><span>GATE CS qualified</span></div>
+        <div class="stat"><strong>8+</strong><span>Production projects</span></div>
+        <div class="stat"><strong>3+</strong><span>Hackathons mentored</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <span class="mouse"><span class="wheel"></span></span>
+    </a>
+  </section>
+  <!-- ================= ABOUT ================= -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">01 · Who I am</p>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-avatar" id="avatar"><span>PS</span></div>
+          <div class="about-meta">
+            <p><strong>Name:</strong> Parv Shah</p>
+            <p><strong>Degree:</strong> M.Tech in Data Analytics — NIT Jalandhar</p>
+            <p><strong>Email:</strong> <a href="mailto:2003parv@gmail.com">2003parv@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+919510719027">+91 95107 19027</a></p>
+            <p><strong>Location:</strong> India</p>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            I'm a graduate student at <strong>NIT Jalandhar</strong> (M.Tech, Data Analytics) and
+            a <strong>DDU Nadiad</strong> B.Tech (IT) alumnus with a strong foundation in
+            software engineering, distributed systems and applied machine learning.
+          </p>
+          <p>
+            Professionally, I've worked as a <strong>full-stack developer at Wappnet</strong> and interned at
+            <strong>Apollo Infotech</strong>, shipping Spring Boot &amp; Laravel APIs, real-time features,
+            third-party social integrations and automated workflows used in production.
+          </p>
+          <p>
+            I enjoy building <strong>scalable microservices</strong> with Kafka, Redis &amp; Docker, engineering
+            <strong>LLM-powered AI assistants</strong> with RAG and vector DBs, and turning raw data into
+            actionable insight with Python, SQL and Power BI.
+          </p>
+          <div class="about-tags">
+            <span>Spring Boot</span><span>Laravel</span><span>FastAPI</span><span>Kafka</span>
+            <span>RAG / LLMs</span><span>Docker</span><span>Power BI</span><span>Python</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================= SKILLS ================= -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">02 · What I do</p>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      </div>
+      <div class="skill-tabs" role="tablist" id="skillTabs">
+        <button class="skill-tab active" data-tab="frontend">Frontend &amp; UI</button>
+        <button class="skill-tab" data-tab="backend">Backend</button>
+        <button class="skill-tab" data-tab="ai">AI / ML &amp; NLP</button>
+        <button class="skill-tab" data-tab="data">Data Analytics</button>
+        <button class="skill-tab" data-tab="devops">DevOps &amp; Tools</button>
+      </div>
+      <div class="skill-panels">
+        <div class="skill-panel active" data-panel="frontend">
+          <ul class="skill-list">
+            <li>React.js</li><li>Vue.js</li><li>Tailwind CSS</li><li>TypeScript</li>
+            <li>HTML5 / CSS3</li><li>Responsive Design</li><li>Bootstrap</li>
+            <li>Pinia / Vuex</li><li>State Management</li><li>Livewire / Filament</li>
+          </ul>
+        </div>
+        <div class="skill-panel" data-panel="backend">
+          <ul class="skill-list">
+            <li>Java Spring Boot / WebFlux</li><li>Laravel</li><li>Core Java (OOP, Hibernate)</li>
+            <li>FastAPI</li><li>REST APIs &amp; GraphQL</li><li>WebSockets</li>
+            <li>JWT / OAuth2 / Sanctum</li><li>Kafka / RabbitMQ</li><li>Redis</li>
+            <li>Microservices</li><li>Event-Driven Architecture</li>
+          </ul>
+        </div>
+        <div class="skill-panel" data-panel="ai">
+          <ul class="skill-list">
+            <li>Python (TensorFlow / Keras / PyTorch)</li><li>LangChain / LangGraph</li>
+            <li>RAG &amp; Context-Aware Systems</li><li>LLM Integration</li><li>Prompt Engineering</li>
+            <li>Sentence Transformers</li><li>FAISS / ChromaDB</li><li>Conversational AI / Agents</li>
+            <li>OpenCV</li><li>Model Optimization</li><li>Machine Learning Explainability</li>
+          </ul>
+        </div>
+        <div class="skill-panel" data-panel="data">
+          <ul class="skill-list">
+            <li>Python (Pandas, NumPy)</li><li>SQL (Complex Queries)</li><li>Power BI</li>
+            <li>Tableau</li><li>Matplotlib / Seaborn</li><li>Advanced Excel</li>
+            <li>MIS Reporting</li><li>EDA &amp; Statistical Analysis</li><li>Scikit-learn / XGBoost</li>
+          </ul>
+        </div>
+        <div class="skill-panel" data-panel="devops">
+          <ul class="skill-list">
+            <li>Docker &amp; Compose</li><li>Git &amp; GitHub Actions</li><li>Linux / Nginx</li>
+            <li>AWS (EC2, S3, Lambda)</li><li>CI/CD</li><li>SOLID / Clean Architecture</li>
+            <li>Testing (PHPUnit, Jest)</li><li>Postman</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skill-bars">
+        <h3 class="bars-title">Core proficiency</h3>
+        <div class="bar-row"><span class="bar-label">Java / Spring Boot</span><div class="bar"><span data-level="92"></span></div></div>
+        <div class="bar-row"><span class="bar-label">Python / AI / ML</span><div class="bar"><span data-level="90"></span></div></div>
+        <div class="bar-row"><span class="bar-label">SQL &amp; Databases</span><div class="bar"><span data-level="88"></span></div></div>
+        <div class="bar-row"><span class="bar-label">Frontend (React / Vue)</span><div class="bar"><span data-level="84"></span></div></div>
+        <div class="bar-row"><span class="bar-label">Cloud &amp; DevOps</span><div class="bar"><span data-level="78"></span></div></div>
+        <div class="bar-row"><span class="bar-label">Data Analytics / BI</span><div class="bar"><span data-level="86"></span></div></div>
+      </div>
+    </div>
+  </section>
+  <!-- ================= PROJECTS ================= -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">03 · Selected work</p>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      </div>
+      <div class="filter-bar" id="projectFilters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="ai">AI / ML</button>
+        <button class="filter" data-filter="backend">Backend</button>
+        <button class="filter" data-filter="fullstack">Full-Stack</button>
+        <button class="filter" data-filter="data">Data</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card" data-category="ai fullstack">
+          <div class="card-head"><span class="card-emoji">🎓</span><span class="card-badge">Ongoing</span></div>
+          <h3>AI-Driven Personalized Learning Platform</h3>
+          <p>Distributed microservices (Spring Boot + FastAPI) with Kafka/RabbitMQ event-driven architecture. Real-time quiz system with concurrency, autosave &amp; timers, plus LLM-powered grading and personalization using embeddings.</p>
+          <div class="card-tags"><span>Spring Boot</span><span>FastAPI</span><span>Kafka</span><span>LLMs</span></div>
+        </article>
+
+        <article class="project-card" data-category="ai backend">
+          <div class="card-head"><span class="card-emoji">💻</span><span class="card-badge">RAG</span></div>
+          <h3>AI Code Assistant &amp; Repository Query Engine</h3>
+          <p>Repository-aware AI coding assistant using Python, FastAPI &amp; LangChain. Retrieval-Augmented Generation with Sentence Transformers + FAISS, indexing 10K+ code chunks with multi-turn conversational memory.</p>
+          <div class="card-tags"><span>LangChain</span><span>FastAPI</span><span>FAISS</span><span>LLM</span></div>
+        </article>
+
+        <article class="project-card" data-category="backend fullstack">
+          <div class="card-head"><span class="card-emoji">🚆</span><span class="card-badge">Microservices</span></div>
+          <h3>Railway Booking System</h3>
+          <p>Spring Boot microservices with PostgreSQL, Redis, Kafka, Docker &amp; Spring Cloud. Graph-based shortest-path route optimization and concurrent seat booking via distributed locking with zero double-booking.</p>
+          <div class="card-tags"><span>Spring Boot</span><span>Kafka</span><span>Redis</span><span>Docker</span></div>
+        </article>
+
+        <article class="project-card" data-category="ai backend fullstack">
+          <div class="card-head"><span class="card-emoji">🖥️</span><span class="card-badge">ICU</span></div>
+          <h3>Intellicare ICU — AI Patient Monitoring</h3>
+          <p>Real-time ICU monitoring with Java Spring Boot microservices, Kafka, Redis &amp; FastAPI. ML models for sepsis detection, cardiac-arrest prediction and length-of-stay forecasting, with WebSocket dashboards &amp; explainable-AI risk explanations.</p>
+          <div class="card-tags"><span>Spring Boot</span><span>ML</span><span>Kafka</span><span>WebSockets</span></div>
+        </article>
+
+        <article class="project-card" data-category="ai fullstack">
+          <div class="card-head"><span class="card-emoji">🩺</span><span class="card-badge">HealthTech</span></div>
+          <h3>HealthAI — AI Healthcare Platform</h3>
+          <p>Appointment booking, report uploads &amp; AI disease suggestions. FastAPI ML predictions from symptoms and images with email reminders, secure AWS S3 storage and EC2 backend deployment.</p>
+          <div class="card-tags"><span>FastAPI</span><span>ML</span><span>AWS S3</span><span>EC2</span></div>
+        </article>
+        <article class="project-card" data-category="ai backend fullstack">
+          <div class="card-head"><span class="card-emoji">🎬</span><span class="card-badge">Streaming</span></div>
+          <h3>StreamAI — Intelligent Movie Streaming</h3>
+          <p>Spring Boot microservices with React.js, Kafka, Redis, Docker &amp; AWS S3. AI-powered predictive adaptive streaming, ML-based server load forecasting and QoE prediction for low-latency adaptive quality.</p>
+          <div class="card-tags"><span>Spring Boot</span><span>React</span><span>ML</span><span>Kafka</span></div>
+        </article>
+
+        <article class="project-card" data-category="fullstack backend">
+          <div class="card-head"><span class="card-emoji">💬</span><span class="card-badge">Real-time</span></div>
+          <h3>Real-Time Chat Application</h3>
+          <p>Full-stack real-time messaging with typing indicators, user search and live updates. Laravel Sanctum + Google OAuth (Socialite), Pusher &amp; Laravel Echo for instant broadcasting, AWS S3 media storage, CI/CD + SSL.</p>
+          <div class="card-tags"><span>Laravel</span><span>Pusher</span><span>OAuth</span><span>AWS S3</span></div>
+        </article>
+
+        <article class="project-card" data-category="data ai">
+          <div class="card-head"><span class="card-emoji">🚨</span><span class="card-badge">Data Science</span></div>
+          <h3>Financial Fraud Detection &amp; Anomaly Analytics</h3>
+          <p>End-to-end fraud prediction pipeline on high-volume transaction data with SMOTE class-imbalance handling. Random Forest &amp; XGBoost classifiers evaluated on Precision, Recall and ROC-AUC for risk insights.</p>
+          <div class="card-tags"><span>Python</span><span>XGBoost</span><span>SQL</span><span>SMOTE</span></div>
+        </article>
+
+        <article class="project-card" data-category="data">
+          <div class="card-head"><span class="card-emoji">📊</span><span class="card-badge">BI</span></div>
+          <h3>Sales &amp; Commercial Insights Dashboard</h3>
+          <p>EDA on multi-channel sales data to surface category, regional and seasonal trends. Interactive Power BI and Excel dashboards for quarterly business reviews tracking GMV, channel growth and volume gaps.</p>
+          <div class="card-tags"><span>Power BI</span><span>Excel</span><span>SQL</span><span>Pandas</span></div>
+        </article>
+
+        <article class="project-card" data-category="ai backend">
+          <div class="card-head"><span class="card-emoji">🔐</span><span class="card-badge">IoT / AI</span></div>
+          <h3>Facial Recognition Smart Access System</h3>
+          <p>Hardware–software bridge using Python OpenCV facial recognition with Arduino via Serial. Dual-layer AI biometric verification with HC-SR04 ultrasonic sensors and real-time PWM servo actuation.</p>
+          <div class="card-tags"><span>OpenCV</span><span>Arduino</span><span>Python</span><span>IoT</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">04 · Career</p>
+        <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Full-Stack Developer</h3>
+              <span class="timeline-date">Jan 2025 – Jul 2025</span>
+            </div>
+            <p class="timeline-org">Wappnet</p>
+            <ul>
+              <li>Built scalable Spring Boot REST APIs with PostgreSQL, handling 10K+ daily requests.</li>
+              <li>Integrated Facebook, Instagram &amp; X APIs for analytics ingestion of 50K+ records/day.</li>
+              <li>Automated business-card generation with HTML2Canvas and AWS S3 (~40% effort reduction).</li>
+              <li>Implemented Kafka, Redis, WebSockets &amp; Spring Scheduler for async workflows (&lt;200ms latency).</li>
+            </ul>
+            <div class="card-tags"><span>Spring Boot</span><span>PostgreSQL</span><span>Kafka</span><span>Redis</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Web Developer Intern</h3>
+              <span class="timeline-date">May 2023 – Jun 2023</span>
+            </div>
+            <p class="timeline-org">Apollo Infotech Pvt Ltd</p>
+            <ul>
+              <li>Built an employee management system with React.js, PHP &amp; MySQL.</li>
+              <li>Applied advanced JavaScript (hooks, routes, state) and OOP in PHP with JWT auth.</li>
+            </ul>
+            <div class="card-tags"><span>React.js</span><span>PHP</span><span>MySQL</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================= EDUCATION ================= -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">05 · Academic path</p>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <h3>M.Tech — Data Analytics</h3>
+          <p class="edu-school">NIT Jalandhar</p>
+          <p class="edu-date">2025 – 2027 · CGPA 7.8</p>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">🏛️</div>
+          <h3>B.Tech — Information Technology</h3>
+          <p class="edu-school">DDU Nadiad</p>
+          <p class="edu-date">2021 – 2025 · CGPA 7.11 · GATE 480</p>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">📘</div>
+          <h3>Higher Secondary (HSC)</h3>
+          <p class="edu-school">Parth School</p>
+          <p class="edu-date">2021 · 82.7% · GUJCET 89.25 · JEE 93.50 PR (Rank ~60K)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================= ACHIEVEMENTS & CERTIFICATIONS ================= -->
+  <section class="section achievements" id="achievements">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">06 · Recognition</p>
+        <h2 class="section-title">Achievements <span class="gradient-text">&amp; Certifications</span></h2>
+      </div>
+      <div class="ach-grid">
+        <div class="ach-col">
+          <h3 class="ach-title">🏆 Achievements</h3>
+          <ul class="ach-list">
+            <li>Solved <strong>700+</strong> DSA problems on LeetCode.</li>
+            <li>Qualified the <strong>GATE Computer Science</strong> exam twice.</li>
+            <li>Former <strong>Technical Head of the Coding Club</strong> at DDU Nadiad.</li>
+            <li>Mentored participants during <strong>multiple hackathons</strong> at NIT Jalandhar.</li>
+            <li>Core committee member for technical events &amp; hackathons at NIT Jalandhar.</li>
+            <li>Reviewed research papers at the ICIST international conference (NIT Jalandhar).</li>
+          </ul>
+        </div>
+        <div class="ach-col">
+          <h3 class="ach-title">📜 Certifications</h3>
+          <ul class="ach-list">
+            <li><strong>IBM Data Analyst Professional</strong> — Coursera</li>
+            <li>Intro &amp; Intermediate Machine Learning — Kaggle</li>
+            <li>Feature Engineering — Kaggle</li>
+            <li>Intro to Deep Learning (TensorFlow/Keras) — Kaggle</li>
+            <li>Machine Learning Explainability — Kaggle</li>
+            <li>Intro to SQL (BigQuery) — Kaggle</li>
+            <li>AI Integration &amp; Computer Vision — Kaggle</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <h3 class="gallery-title">📸 Hackathon moments</h3>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <a href="heakethon1.jpeg" target="_blank" rel="noopener">
+              <img src="heakethon1.jpeg" alt="Parv Shah at a hackathon" loading="lazy" />
+            </a>
+            <figcaption>Mentoring participants at NIT Jalandhar hackathon</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================= CONTACT ================= -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">07 · Let's talk</p>
+        <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-lead">Have a role, project or collaboration in mind? I'd love to hear about it.</p>
+          <div class="contact-item">
+            <span class="contact-emoji">✉️</span>
+            <a href="mailto:2003parv@gmail.com">2003parv@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-emoji">📱</span>
+            <a href="tel:+919510719027">+91 95107 19027</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-emoji">💻</span>
+            <a href="https://github.com/2003parvshah" target="_blank" rel="noopener">github.com/2003parvshah</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-emoji">🧮</span>
+            <a href="https://leetcode.com/2003parv/" target="_blank" rel="noopener">leetcode.com/2003parv</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-emoji">⚔️</span>
+            <a href="https://codeforces.com/profile/2003parv20" target="_blank" rel="noopener">codeforces.com/profile/2003parv20</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-emoji">🎓</span>
+            <a href="https://www.coursera.org/my-learning?myLearningTab=IN_PROGRESS" target="_blank" rel="noopener">Coursera — My Learning</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-emoji">💼</span><span>LinkedIn</span>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="cf-name">Name</label>
+          <input id="cf-name" type="text" placeholder="Your name" required />
+          <label for="cf-email">Email</label>
+          <input id="cf-email" type="email" placeholder="you@example.com" required />
+          <label for="cf-msg">Message</label>
+          <textarea id="cf-msg" rows="5" placeholder="Tell me about your opportunity..." required></textarea>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <p class="form-note" id="formNote">This demo opens your email client to send the message.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p class="footer-brand">Parv<span class="brand-dot">.</span>Shah</p>
+    <p class="footer-links">
+      <a href="https://github.com/2003parvshah" target="_blank" rel="noopener">GitHub</a>
+      <span>·</span>
+      <a href="https://leetcode.com/2003parv/" target="_blank" rel="noopener">LeetCode</a>
+      <span>·</span>
+      <a href="mailto:2003parv@gmail.com">Email</a>
+    </p>
+    <p class="footer-note">© <span id="year"></span> Parv Shah · Built with HTML, CSS &amp; vanilla JavaScript.</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
