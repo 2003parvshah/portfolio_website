@@ -520,6 +520,7 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 22px;
+  align-items: start;
 }
 .gallery-item {
   margin: 0;
@@ -535,8 +536,9 @@ body::-webkit-scrollbar-thumb {
 .gallery-item img {
   width: 100%;
   display: block;
+  height: auto;
   object-fit: cover;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
 }
 .gallery-item figcaption {
   padding: 10px 16px;
